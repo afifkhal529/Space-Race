@@ -405,12 +405,14 @@ namespace Space_Race
             {
                 titleLabel.Text = "GAME OVER";
                 subtitleLabel.Text += "Press Space Bar to Start or Escape to Exit";
+                winLabel.Visible = true;
                 winLabel.Text = "Player 1 Wins!!";
             }
             else if (gameState == "finish")
             {
                 titleLabel.Text = "GAME OVER";
                 subtitleLabel.Text += "Press Space Bar to Start or Escape to Exit";
+                winLabel.Visible = true;
                 winLabel.Text = "Player 2 Wins!!";
             }
             
