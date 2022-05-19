@@ -334,6 +334,8 @@ namespace Space_Race
 
             p1Score = 0;
             p2Score = 0;
+            p1scoreLabel.Text = "0";
+            p2scoreLabel.Text = "0";
 
             winLabel.Visible = false;
             gameTimer.Enabled = true;
